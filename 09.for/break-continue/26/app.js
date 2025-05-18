@@ -35,3 +35,15 @@ for (let i = 0; i < array.length; i++) {
 }
 
 console.log(`Количество гласных: ${count}`);
+
+count=0;
+
+let gl = ['a','e','i','o','u'];
+
+for (let i = 0; i < array.length; i++) {
+    if ( str.includes(gl) ) {
+        count +=1;
+    } 
+}
+
+console.log(`Количество гласных: ${count}`);
