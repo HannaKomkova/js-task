@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.card {
+    position: fixed;
+    top: 20px; /* Отступ сверху */
+    left: 0;
+    right: 0;
+    width: 500px;
+    margin: 0 auto; /* Центрирование */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aqua ;
+    display: none;
+}
