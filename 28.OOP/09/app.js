@@ -6,7 +6,7 @@ class Singer {
     name = prompt('enter name')
     surname = prompt ('enter surname')
     getAutograph(){
-        console.log(`${name} ${surname}, c наилучшими пожеланиями`);
+        return console.log(`${this.name} ${this.surname}, c наилучшими пожеланиями`);
     }
 }
 
