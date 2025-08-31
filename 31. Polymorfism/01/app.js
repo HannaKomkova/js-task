@@ -1,0 +1,26 @@
+// Создайте класс Product, который будет иметь свойства name, price и quantity. Напишите метод
+// getTotalCost(products), который принимает список продуктов и возвращает общую стоимость всех
+// товаров в каталоге.
+// Входные: Product("Apple", 2, 5) → Результат: 10
+// Входные: Product("Orange", 3, 4)→ Результат: 12
+
+
+class Product{
+    name;
+    price;
+    quantify;
+
+    constructor(name, price, quantify){
+        this.name = name;
+        this.price = price;
+        this.quantify = quantify;
+    }
+    getTotalCost(){
+        console.log(this.price * this.quantify);
+        
+    }
+}
+
+const products = new Product("Apple", 2, 5);
+products.getTotalCost()
+
